@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+  font-family: Montserrat;
+}
+
+ /* ====== swiper css ====== */
+.swiper{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ======== about css ========= */
+
+#about{
+  font-size: 3rem;
+  margin-top: 10vh;
+}
+
+.para{
+  display: hidden;
+}
+
+.content:hover .para{
+  display: block;
+}

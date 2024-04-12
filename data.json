@@ -1,0 +1,1534 @@
+{
+  "AboutUs": [
+    {
+      "title": "Overview",
+      "content": [
+        "NICT provides high quality computer education at a very high standard at a very low cost. NICT’s mission is to create a pool of high quality software professionals who will meet the demanding needs of multinational organizations for tomorrow’s challenges.",
+        "Training methods have been maximized with “learning” rather than “teaching” through well equipped lab ONE-TO-ONE ratio (ONE COMPUTER FOR ONE STUDENT). With structured combination of theoretical and practical sessions, reinforced with colour Pentium computers in every class room for live demonstrations."
+      ],
+      "image": "http://www.nictcomputereducation.com/assets/logo.ico",
+      "button": "Get in Touch",
+
+      "titleTwo": "Our Philosophy",
+      "paraOne": "We believe that training in the latest computer technologies combined with life-long learning are the essential ingredients for building a successful career in the IT Industry. Students are trained in a multi-cultural atmosphere providing student-centered interactive learning which is centered on today’s computerized business environment.",
+      "paraTwo": "NICT emphasis is given to the maximum extent on the projects by maximum practical learning through simulated projects designed to the needs of the industry. “Practice makes a man perfect”. A belief that is unanimously shared at NICT. This is quite evident from the fact that the Diploma courses offer more computer time than theory, a popular concept in modern education..",
+
+      "titleThree": "Facilities",
+      "paraThree": "Our labs are equipped with modern systems highlighting a multi environment, multi user networked to all the terminals. The system can run different operating system MSDOS, Windows, Unix & Linux simultaneously, with a backup of electricity under UPS and also equipped with the generator to assure an uninterrupted power supply with high speed Internet connections.",
+
+      "titleFour": "Hours of Operation",
+      "paraFour": "Classes are scheduled for Mon, Wed, Friday; or on Tuesday, Thurs, Saturday; Centers are open Monday to Saturday 7 a.m. to 9 p.m. & on Sundays 9 a.m. to 1 p.m. Special Fast Track and Weekend batches are also available.",
+
+      "imageBg": "http://www.nictcomputereducation.com/assets/about/About-dp.jpg",
+
+      "UlTitle": "Benefits:",
+      "List": [
+        "100% Placement Assistance",
+        "Centralized Placement Cell",
+        "Evaluate and enhance the skills with Pre-Employability Test",
+        "Increase your chance of getting hired with the video and visual resume",
+        "Training on Licensed Software – Real Time Learning",
+        "Courses Designed as per the suggestions/recommendations by Industry – Academic Panel",
+        "Practice on Work Books/Industry Case scenarios",
+        "Free Video & Visual Resume for faster access to employers"
+      ],
+      "Heading": "List of few Colleges associated With us.",
+      "HeadingList": [
+        "RV institutions",
+        "Dayanada Sagar Business Academy",
+        "East Point College of Higher Education",
+        "Jain CMS",
+        "Mount Carmel college",
+        "Jyothi Nivas College",
+        "New Horizon College",
+        "MES College",
+        "VVN Degree college",
+        "Seshadripuram Degree College, Mysore"
+      ],
+      "BgImage": "http://www.nictcomputereducation.com/assets/about/college.jpg",
+      "titlePartner": "Our Partner",
+      "Images": [
+        "http://www.nictcomputereducation.com/assets/partners/tally.png",
+        "http://www.nictcomputereducation.com/assets/partners/office.png",
+        "http://www.nictcomputereducation.com/assets/partners/corel.png",
+        "http://www.nictcomputereducation.com/assets/partners/autodesk.png",
+        "http://www.nictcomputereducation.com/assets/partners/gg.jpg"
+      ]
+    }
+  ],
+  "Course": [
+    {
+      "id ": 1,
+      "title": "Office Essentials & Accounts",
+      "content": [
+        {
+          "courseName": "ND1: Diploma in Office Essentials",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, Internet & Microsoft Word.",
+          "price": 5000,
+          "duration": "3 Months",
+          "offerPrice": "2000",
+          "displayBanner": null,
+          "certificate": ["NICT Certificate"],
+          "assignments": true,
+          "internship": true,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": true,
+          "status": true,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "ND2: Diploma in Office Management",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, Internet, Microsoft Word, MS Excel, Power Point, MS Access",
+          "price": 25200,
+          "duration": "1 Year",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": false,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "ND3: Diploma in Accountancy",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, Internet, MS Office (Word, Excel, Power Point, MS Access), Tally Prime Level 1 with GST, Access to Tally Portal for Online Assessment and Certification directly from Tally. Access to online Exam from Microsoft to earn Microsoft Excel Certificate and Badge.",
+          "price": 18000,
+          "duration": "8 Months",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "ND4: Diploma in Advanced Accountancy",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, Internet, MS Office (Word, Excel, Power Point, MS Access), Tally Prime Level 1 with GST, Tally Prime Level 2 with GST,",
+          "price": 20700,
+          "duration": "6 Months",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "ND5: Masters Diploma in Accountancy & Taxation",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, MS Office (Word, Excel, Power Point, MS Access), Advance / Expert Excel, Visual Basic Application, Tally PRIME Level 1, 2 and 3 along with GST and in-depth Taxation system, Power BI.",
+          "price": 45000,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "ND22: ACPFAT - Advanced Certificate Program in Financial Accounting & Taxation",
+          "category": "Office Essentials & Accounts",
+          "description": "Computer Basics, DOS, Windows, Internet, MS Office (Word, Excel, Power Point, MS Access), HTML (Web Designing), Business Communication, Personality Development, Sales Management, Tally PRIME Level 1, Level 2 and Level 3 with GST and Taxation. ",
+          "price": 45000,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image": "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        },
+        {
+          "courseName": "TFAP",
+          "category": "Accounting",
+          "description": "",
+          "price": 16200,
+          "duration": "6 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://www.filepicker.io/api/file/9Q2hQ4TfRiGtD8vWcRNG"
+        }
+      ]
+    },
+    {
+      "id ": 2,
+      "title": "SAP",
+      "content": [
+ {     
+  "courseName": "SAP - FICO",
+  "category": "SAP",
+  "description": "SAP FICO is the Finance and Cost controlling module in SAP ERP where FI stands for Financial Accounting and CO stands for Controlling. SAP FICO module is very robust and covers almost all business process encountered in various industries. It is one of the very important and widely implemented modules in SAP.",
+  "price": 45000,
+  "duration": "2 Months",
+  "offerPrice": null,
+  "displayBanner": null,
+  "certificate": [],
+  "assignments": true,
+  "internship": null,
+  "placementAssistance": true,
+  "nictApp": true,
+  "tallyApp": null,
+  "status": true,
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaUW_FTKf1JB4fAI9pVm5y52PA5x0Tg8tMOeZUC3IA&s"
+},
+{
+ 
+  "courseName": "SAP - SD",
+  "category": "SAP",
+  "description": "SAP SD (Sales and Distribution ) used to store and manage customer and product related data. In SAP SD, professionals design and implement SAP ERP solutions for sales, business transactions, post sales activities.",
+  "price": 9000,
+  "duration": "2 Months",
+  "offerPrice": null,
+  "displayBanner": null,
+  "certificate": [],
+  "assignments": true,
+  "internship": null,
+  "placementAssistance": true,
+  "nictApp": true,
+  "tallyApp": null,
+  "status": true,
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaUW_FTKf1JB4fAI9pVm5y52PA5x0Tg8tMOeZUC3IA&s"
+},
+{
+
+  "courseName": "SAP -  MM",
+  "category": "SAP",
+  "description": "SAP MM (Materials and Management) covers all tasks in supply chain, including consumption- based planning , vendor evaluation and invoice verification.",
+  "price": 17100,
+  "duration": "4 Months",
+  "offerPrice": null,
+  "displayBanner": null,
+  "certificate": [],
+  "assignments": true,
+  "internship": null,
+  "placementAssistance": true,
+  "nictApp": true,
+  "tallyApp": null,
+  "status": true,
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaUW_FTKf1JB4fAI9pVm5y52PA5x0Tg8tMOeZUC3IA&s"
+},
+{
+
+  "courseName": "SAP - PP",
+  "category": "SAP",
+  "description": "SAP PP (Production Planning) deals with planning processes such as capacity planning, material planning, execution of production order, bill of material and goods movement.",
+  "price": 14400,
+  "duration": "3 Months",
+  "offerPrice": null,
+  "displayBanner": null,
+  "certificate": [],
+  "assignments": true,
+  "internship": null,
+  "placementAssistance": true,
+  "nictApp": true,
+  "tallyApp": null,
+  "status": true,
+  "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TaUW_FTKf1JB4fAI9pVm5y52PA5x0Tg8tMOeZUC3IA&s"
+}
+      ]
+    },
+    {
+      "id ": 5,
+      "title": "Database",
+      "content": [
+        {
+       
+          "courseName": "Mysql",
+          "category": "Database",
+          "description": "MySQL is a relational database management system based on SQL – Structured Query Language. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web database.",
+          "price": 6300,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdtMVDIC_8ImYT8JuCymaCGD4dJ-SM6p6p9fveCUTCA&s"
+      },
+      {
+         
+          "courseName": "Oracle",
+          "category": "Database",
+          "description": "Oracle Database (commonly referred to as Oracle DBMS or simply as Oracle) is a multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing (OLTP), data warehousing (DW) and mixed (OLTP & DW) database workloads.",
+          "price": 4500,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdtMVDIC_8ImYT8JuCymaCGD4dJ-SM6p6p9fveCUTCA&s"
+      },
+      {
+         
+          "courseName": "Sql Server",
+          "category": "Database",
+          "description": "SQL Server is a database server by Microsoft. ... SQL is a special-purpose programming language designed to handle data in a relational database management system. A database server is a computer program that provides database services to other programs or computers, as defined by the client-server model.",
+          "price": 6300,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdtMVDIC_8ImYT8JuCymaCGD4dJ-SM6p6p9fveCUTCA&s"
+      }
+      ]
+    },
+    {
+      "id ": 6,
+      "title": "Designing",
+      "content": [
+        {
+          "courseName": "AutoCAD",
+          "category": "Designing",
+          "description": "What is AutoCAD Used For? AutoCAD can create any 2D drawing and 3D model or construction that can be drawn by hand. The program also allows the user to group or layer objects, keep objects in a database for future use, and manipulate properties of objects, such as size, shape, and location.",
+          "price": 6850,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2019/04/gdi-promising-graphic-designing-courses.jpg?fit=1200%2C800&ssl=1"
+      },
+      {
+       
+        "courseName": "Diploma in Architectural Visualization",
+        "category": "Designing",
+        "description": "This module aims at creative and technical solutions that are applied within a structure to achieve a built interior/Exterior environment and home lifestyle enhancement.",
+        "price": 28900,
+        "duration": "6 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+         "image" : "https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2019/04/gdi-promising-graphic-designing-courses.jpg?fit=1200%2C800&ssl=1"
+    }
+      ]
+    },
+    {
+      "id ": 7,
+      "title": "Multimedia",
+      "content": [
+        {
+   
+          "courseName": "CorelDRAW",
+          "category": "Multimedia",
+          "description": "As a vector graphics editor, CorelDraw is used primarily for marketing and advertising businesses, particularly those that specialize in print advertising development. Outside of logos, CorelDraw is a program used in the professional space to create brochures, newsletters, business card etc.",
+          "price": 6300,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+        "image" : "https://i0.wp.com/www.graphic-design-institute.com/wp-content/uploads/2019/04/gdi-promising-graphic-designing-courses.jpg?fit=1200%2C800&ssl=1"
+  
+      },
+      {
+   
+        "courseName": "3ds Max",
+        "category": "Multimedia",
+        "description": "3ds Max is often used for character modeling and animation as well as for rendering photorealistic images of buildings and other objects.",
+        "price": 15300,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+            "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    },
+    {
+       
+        "courseName": "Adobe Premier",
+        "category": "Multimedia",
+        "description": "Premiere Pro is used for editing videos, commercials and other film, television, and online video. It is a comprehensive video editing software application and is also available as part of the Adobe Creative Cloud set of applications.",
+        "price": 10800,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    },
+    {
+      
+        "courseName": "After Effects",
+        "category": "Multimedia",
+        "description": "Adobe After Effects is the industry standard tool for motion graphics and visual effects. ... After Effects compositing tools enable you to combine multiple layers of video and images seamlessly into the same scene. Use keying effects to remove a background, or use rotoscoping and masking tools to isolate any object.",
+        "price": 11700,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+            "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    },
+    {
+       
+        "courseName": "Flash",
+        "category": "Multimedia",
+        "description": "Adobe Flash is a deprecated multimedia software platform used for production of animations, rich Internet applications, desktop applications, mobile applications, mobile games and embedded web browser video players. ... It allows streaming of audio and video, and can capture mouse, keyboard, microphone and camera input.",
+        "price": 7200,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+          "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    },
+    {
+        
+        "courseName": "Master Diploma in Multimedia & Animation",
+        "category": "Multimedia",
+        "description": "Animation is the art of presenting still photographs with the help of various computer based techniques in a manner which gives an impression to the viewer that it is running like a film. ... Multimedia is a combined version of text, animation, graphics, sound, video etc..",
+        "price": 58500,
+        "duration": "1 Year",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+             "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    },
+    {
+      
+        "courseName": "Maya",
+        "category": "Multimedia",
+        "description": "Autodesk Maya which commonly known as MAYA software is 3D computer graphic software. It is used to create realistic 3D models, 3D applications, animated movies, TV serials, technical-non-technical commercials, 3D video games, visual effects and many other effects.",
+        "price": 16200,
+        "duration": "3 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+         "image" : "https://www.gkftii.com/blog/img/multimedia-courses-scope-and-career.webp"
+    }
+      ]
+    },
+    {
+      "id ": 8,
+      "title": "Web Designing",
+      "content": [
+        {
+     
+          "courseName": "XML",
+          "category": "Web Designing",
+          "description": "XML is a language that's very similar to HTML. ... XML is a meta-language: a language that allows us to create or define other languages. For example, with XML we can create other languages, such as RSS, MathML (a mathematical markup language), and even tools like XSLT.",
+          "price": 6300,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+      },
+      {
+       
+        "courseName": "Web & Front End Development",
+        "category": "Web Designing",
+        "description": "Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly.",
+        "price": 28800,
+        "duration": "8 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+       "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+
+    },
+    {
+     
+        "courseName": "CSS3",
+        "category": "Web Designing",
+        "description": "It is used with HTML to create content structure, with CSS3 being used to format structured content. It is responsible for font properties, colors, text alignments, graphics, background images, tables and other components.",
+        "price": 4500,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    },
+    {
+      
+        "courseName": "DHTML",
+        "category": "Web Designing",
+        "description": "DHTML allows authors to add effects to their pages that are otherwise difficult to achieve, by changing the Document Object Model (DOM) and page style. The combination of HTML, CSS and JavaScript offers ways to: Animate text and images in their document.",
+        "price": 3600,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+        "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    },
+    {
+      
+        "courseName": "Diploma in E Commerce Web Design",
+        "category": "Web Designing",
+        "description": "You will learn how to build an e-commerce website from scratch using HTML, CSS, Javascript, PHP and SQL, as well as how to develop advanced e-commerce functionalities and display products online, produce simple and effective CSS, PHP and SQL from scratch using any development environment and more!",
+        "price": 16200,
+        "duration": "6 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    },
+    {
+       
+        "courseName": "Dreamweaver",
+        "category": "Web Designing",
+        "description": " Dreamweaver allows you to build webpages by designing them visually in a LIVE view without knowing any HTML or if you know HTML code, type it into the code editor. Both approaches allow you to quickly build a webpage and ultimately a website.",
+        "price": 4500,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+             "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    },
+    {
+      
+        "courseName": "J Query",
+        "category": "Web Designing",
+        "description": "jQuery is a lightweight, \"write less",
+        "price": 0,
+        "duration": " JavaScript library. The purpose of jQuery is",
+        "offerPrice": null,
+        "displayBanner": "6300",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+         "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    },
+    {
+      
+        "courseName": "PHP",
+        "category": "Web Designing",
+        "description": "PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages.",
+        "price": 7200,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://idreamcareer.com/wp-content/uploads/2023/05/Web-Designing-Course.webp"
+    }
+      ]
+    },
+    {
+      "id ": 9,
+      "title": "Desktop Publishing",
+      "content": [
+        {
+      
+          "courseName": "Diploma in Graphic & Digital Media",
+          "category": "Desktop Publishing",
+          "description": "Graphic design is a process which involves process of visual communication and problem solving with the help of space, type and image. ... The skills used in graphic designing are Adobe Illustrator, Photoshop, 2D, 3D designing, Art direction, Colour theory, typography, print and editorial design etc. Media studies graduates typically enter careers in the media, cultural and creative industries. Areas of work include television and radio, film and video, digital media, computer games, journalism, writing and publishing, PR and media practice. Employers include: communications agencies.",
+          "price": 22500,
+          "duration": "8 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+              "image" : "https://m2institute.in/uploads/course/material/4/S-001_logo.jpg"
+      },
+      {
+         
+          "courseName": "DTP",
+          "category": "Desktop Publishing",
+          "description": "his technology allows individuals, businesses, and other organizations to self-publish a wide variety of content, from menus to magazines to books, without the expense of commercial printing.",
+          "price": 12600,
+          "duration": "6 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+                 "image" : "https://m2institute.in/uploads/course/material/4/S-001_logo.jpg"
+      },
+      {
+        
+          "courseName": "Indesign",
+          "category": "Desktop Publishing",
+          "description": "InDesign is used to create flyers, brochures, magazines, newspapers, posters, business cards, postcards, stickers, comics, and many other types of documents or visual communication. InDesign is an industry-standard for publishing design and is used by graphics and marketing professionals.",
+          "price": 6300,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://m2institute.in/uploads/course/material/4/S-001_logo.jpg"
+      }
+      ]
+    },
+    {
+      "id ": 10,
+      "title": "Job Oriented Courses",
+      "content": [
+        {
+       
+          "courseName": "SAP - MM",
+          "category": "Job Oriented Courses",
+          "description": "SAP MM is one of the modules of SAP that deals with material management and inventory management. ... It deals with the Procurement Process, Master Data (Material & Vendor Master), Account Determination & Valuation of Material, Inventory Management, Invoice Verification, Material Requirement Planning, etc.",
+          "price": 45000,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+         "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+        
+          "courseName": "BCI",
+          "category": "Job Oriented Courses",
+          "description": "Diploma Course ",
+          "price": 5400,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+         "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+     
+          "courseName": "Computer Basic",
+          "category": "Job Oriented Courses",
+          "description": "A computer is a programmable machine designed to perform arithmetic and logical operations automatically and sequentially on the input given by the user and gives the desired output after processing. ",
+          "price": 1530,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+          
+          "courseName": "DAA",
+          "category": "Job Oriented Courses",
+          "description": "Job Orentiated Courses",
+          "price": 14400,
+          "duration": "5 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+          
+          "courseName": "DCTT",
+          "category": "Job Oriented Courses",
+          "description": "Teacher education TE (TE) or teacher training refers to the policies, procedures, and provision designed to equip (prospective) teachers with the knowledge, attitudes, behaviors, and skills they require to perform their tasks effectively in the classroom, school, and wider community.",
+          "price": 15300,
+          "duration": "8 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+                "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+      
+          "courseName": "DOM",
+          "category": "Job Oriented Courses",
+          "description": "A computer is a programmable machine designed to perform arithmetic and logical operations automatically and sequentially on the input given by the user and gives the desired output after processing. ",
+          "price": 8100,
+          "duration": "6 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+     
+          "courseName": "Internet",
+          "category": "Job Oriented Courses",
+          "description": "A few of the major uses of Internet are e-commerce, e-learning, knowledge sharing, social connectivity, variety of media, file transfer, communication, etc",
+          "price": 1800,
+          "duration": "2 Weeks",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+        
+          "courseName": "Microsoft Access",
+          "category": "Job Oriented Courses",
+          "description": "Microsoft Access stores data in its own format based on the Access Jet Database Engine. It can also import or link directly to data stored in other applications and databases. Software developers, data architects and power users can use Microsoft Access to develop application software.",
+          "price": 3600,
+          "duration": "1 Week",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+       
+          "courseName": "Microsoft Excel",
+          "category": "Job Oriented Courses",
+          "description": "Microsoft Excel is a spreadsheet program. That means it's used to create grids of text, numbers and formulas specifying calculations. That's extremely valuable for many businesses, which use it to record expenditures and income, plan budgets, chart data and succinctly present fiscal results.",
+          "price": 4500,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+              "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+        
+          "courseName": "Microsoft Office",
+          "category": "Job Oriented Courses",
+          "description": "Microsoft Office is a suite of desktop productivity applications that is designed specifically to be used for office or business use. ... It mainly consists of Word, Excel,PowerPoint, Access, OneNote, Outlook and Publisher applications. ",
+          "price": 8100,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+         
+          "courseName": "Microsoft Powerpoint",
+          "category": "Job Oriented Courses",
+          "description": "PowerPoint is a computer program that allows you to create and show slides to support a presentation. You can combine text, graphics and multi-media content to create professional presentations.",
+          "price": 2800,
+          "duration": "2 Weeks",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+      
+          "courseName": "Microsoft Word",
+          "category": "Job Oriented Courses",
+          "description": "Microsoft Word allows you to create professional-quality documents, reports, letters, and résumés. Unlike a plain text editor, Microsoft Word has features including spell check, grammar check, text and font formatting, HTML support, image support, advanced page layout, and more.",
+          "price": 3600,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      },
+      {
+     
+          "courseName": "PGDCA",
+          "category": "Job Oriented Courses",
+          "description": "",
+          "price": 17100,
+          "duration": "1 Year",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnxCwhMkclK0tE3Vjq5m8hlZq2eept0DK5Je76_TSdQ&s"
+      }
+      ]
+    },
+    {
+      "id ": 11,
+      "title": "Hardware & Network",
+      "content": [
+        {
+       
+          "courseName": "A+",
+          "category": "Hardware & Networking",
+          "description": "A+ (A Plus) is an entry-level computer certification for PC computer service technicians. Computer service professionals in installing, maintaining, customizing, and operating personal computers.",
+          "price": 8100,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+      },
+      {
+       
+          "courseName": "DAN",
+          "category": "Hardware & Networking",
+          "description": "Job Orentiated Courses",
+          "price": 26100,
+          "duration": "8 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+      },
+      {
+       
+          "courseName": "MCSA (3 Papers)",
+          "category": "Hardware & Networking",
+          "description": "The MCSA certification, which is a prerequisite to studying the MCSE, focuses on servers, operating systems and web applications while the MCSE teaches business intelligence, private cloud computing, server infrastructure and data platform skills and knowledge",
+          "price": 17010,
+          "duration": "3 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+      },
+    {
+         
+          "courseName": "MCSE(5 Papers)",
+          "category": "Hardware & Networking",
+          "description": "The MCSA certification, which is a prerequisite to studying the MCSE, focuses on servers, operating systems and web applications while the MCSE teaches business intelligence, private cloud computing, server infrastructure and data platform skills and knowledge",
+          "price": 24570,
+          "duration": "5 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+      }, 
+     {
+         
+          "courseName": "HNCP",
+          "category": "Hardware & Networking",
+          "description": "Computer hardware professionals look after maintenance of system while networking involves joining or connecting two or more systems for sharing data and information. Thus, the professionals who are involved in R&D of computer hardware and networking are called as hardware networking engineers.",
+          "price": 53100,
+          "duration": "1 Year",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+      },
+      {
+    
+        "courseName": "CCNA",
+        "category": "Hardware & Networking",
+        "description": "The knowledge gathered through CCNA can be efficiently used for studying other networking modules; such as CCNA security and CCNA wireless. The CCNA certificate would unquestionably help you switch from your existing job to a better paying and more challenging networking job.",
+        "price": 22500,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": null,
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+         "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+    },
+    {
+        
+        "courseName": "CCNP",
+        "category": "Hardware & Networking",
+        "description": "Cisco Certified Network Professional (CCNP) Routing and Switching certification validates the ability to plan, implement, verify and troubleshoot local and wide-area enterprise networks and work collaboratively with specialists on advanced security, voice, wireless and video solutions.",
+        "price": 0,
+        "duration": "4 Months",
+        "offerPrice": null,
+        "displayBanner": null,
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+    },
+    {
+      
+        "courseName": "N+",
+        "category": "Hardware & Networking",
+        "description": "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting. ... (The term computer networking refers to linking multiple devices so that they can readily share information and software resources.)",
+        "price": 8100,
+        "duration": "2 Months",
+        "offerPrice": null,
+        "displayBanner": null,
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+           "image" : "https://www.datapro.in/uploads/7d8e90cfd62bb6f21a6fadca8211711c.jpg"
+    }
+      ]
+    },
+    {
+      "id ": 12,
+      "title": "Programming",
+      "content": [
+        {
+        
+          "courseName": "Unix",
+          "category": "Programming",
+          "description": "Unix is an operating system. It supports multitasking and multi-user functionality. Unix is most widely used in all forms of computing systems such as desktop, laptop, and servers. On Unix, there is a Graphical user interface similar to windows that support easy navigation and support environment.",
+          "price": 3600,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+        
+          "courseName": "Asp.net",
+          "category": "Programming",
+          "description": "ASP.NET allows developers to create web applications, web services, and dynamic content-driven websites.",
+          "price": 7200,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+         
+          "courseName": "Blue J",
+          "category": "Programming",
+          "description": "BlueJ was primarily built to assist with user education on object-oriented programming. The interface supports visual views of classes and coded objects. The idea is that by ordering and organizing visual representations of Java code, these kinds of tools can make programming languages like Java easier to use.",
+          "price": 6300,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+         
+          "courseName": "C Language",
+          "category": "Programming",
+          "description": "worldwide and used in a multitude of applications, including advanced scientific systems and operating systems. Another important benefit of learning the C language, is that it is the base language of all advanced computer languages.",
+          "price": 3600,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+         
+          "courseName": "C#",
+          "category": "Programming",
+          "description": "C# is widely used for developing desktop applications, web applications and web services. It is used in creating applications of Microsoft at a large scale. C# is also used in game development in Unity.",
+          "price": 7200,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+         "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+       
+          "courseName": "C++",
+          "category": "Programming",
+          "description": "C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.",
+          "price": 2700,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+        
+          "courseName": "Data structure",
+          "category": "Programming",
+          "description": "Data structures serve as the basis for abstract data types (ADT). ... Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. Usually, efficient data structures are key to designing efficient algorithms.",
+          "price": 4500,
+          "duration": "1 Month",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+         
+          "courseName": "DNP",
+          "category": "Programming",
+          "description": ". NET is a software framework that is designed and developed by Microsoft. ... Net platform, VB.Net and C# being the most common ones. It is used to build applications for Windows, phone, web, etc. It provides a lot of functionalities and also supports industry standards.",
+          "price": 21600,
+          "duration": "6 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+         
+          "courseName": "DSE",
+          "category": "Programming",
+          "description": "Software engineering is a detailed study of engineering to the design, development and maintenance of software. Software engineering was introduced to address the issues of low-quality software projects.",
+          "price": 15300,
+          "duration": "10 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+     
+          "courseName": "Java",
+          "category": "Programming",
+          "description": "Java can be used to create complete applications that may run on a single computer or be distributed among servers and clients in a network. It can also be used to build a small application module or applet (a simply designed, small application) for use as part of a Web page.",
+          "price": 6300,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "[object Object]",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+             "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+          
+          "courseName": "Python",
+          "category": "Programming",
+          "description": "Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.",
+          "price": 6300,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png",
+          "pdf" : "src/CoursePdf/Python.pdf"
+      },
+      {
+          
+          "courseName": "VBA",
+          "category": "Programming",
+          "description": "Visual Basic for Applications is a computer programming language developed and owned by Microsoft. With VBA you can create macros to automate repetitive word- and data-processing functions, and generate custom forms, graphs, and reports. VBA functions within MS Office applications; it is not a stand-alone product.",
+          "price": 12600,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+    
+        "courseName": "Java Script",
+        "category": "Programming",
+        "description": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.",
+        "price": 3600,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+        "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+       
+        "courseName": "Linux",
+        "category": "Programming",
+        "description": "Linux is the best-known and most-used open source operating system. As an operating system, Linux is software that sits underneath all of the other software on a computer, receiving requests from those programs and relaying these requests to the computer's hardware.",
+        "price": 3600,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+      "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+      },
+      {
+        
+        "courseName": "VB.net",
+        "category": "Advance Programming",
+        "description": "VB.NET stands for Visual Basic.NET, and it is a computer programming language developed by Microsoft. It was first released in 2002 to replace Visual Basic 6. VB.NET is an object-oriented programming language.",
+        "price": 7200,
+        "duration": "1 Month",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+        "image" : "https://cdn.hackr.io/uploads/posts/large/16455577799avf4LJrrO.png"
+     }
+    ]
+    },
+    {
+      "id ": 13,
+      "title": "Language Learning",
+      "content": [
+        {     
+
+        "courseName": "Spoken English L1,2,3",
+        "category": "Language Learning",
+        "description": "Language Learning",
+        "price": 14400,
+        "duration": "3 Months",
+        "offerPrice": null,
+        "displayBanner": "",
+        "certificate": [],
+        "assignments": true,
+        "internship": null,
+        "placementAssistance": true,
+        "nictApp": true,
+        "tallyApp": null,
+        "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaQqCgtwgjKfhYp-6sIFr_DFtn3HwbRyMatUHVI3tug&s"
+        },
+        {
+      
+          "courseName": "Spoken English Level ",
+          "category": "Langauge",
+          "description": null,
+          "price": null,
+          "duration": "Each module 1 month",
+          "offerPrice": null,
+          "displayBanner": null,
+          "certificate": [],
+          "assignments": true,
+          "internship": true,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaQqCgtwgjKfhYp-6sIFr_DFtn3HwbRyMatUHVI3tug&s"
+      }
+      ]
+    },
+    {
+      "id ": 14,
+      "title": "Testing",
+      "content": [
+        {
+          "courseName": "Testing Tools",
+          "category": "Testing",
+          "description": "Software testing tools are often used to assure firmness, thoroughness and performance in testing software products. Unit testing and subsequent integration testing can be performed by software testing tools. These tools are used to fulfill all the requirements of planned testing activities.",
+          "price": 14400,
+          "duration": "2 Months",
+          "offerPrice": null,
+          "displayBanner": "",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+          "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_z2ZVOaWfhKUqlCKwtTrbHnvBsGNsKLhQpaVAXVL8Mg&s"
+      }
+      ]
+    },
+    {
+      "id ": 15,
+      "title": "Internship",
+      "content": [
+        {
+    
+          "courseName": "Internship @ TCS iON",
+          "category": "Internship",
+          "description": "We now Provide Remote Internship with certificate from TCS iON",
+          "price": 100000,
+          "duration": "90 Days",
+          "offerPrice": null,
+          "displayBanner": "undefined",
+          "certificate": [],
+          "assignments": true,
+          "internship": null,
+          "placementAssistance": true,
+          "nictApp": true,
+          "tallyApp": null,
+          "status": true,
+           "image" : "https://coretechcomputers.in/wp-content/uploads/2021/06/2-months-training-and-internship-program.jpg"
+      }
+      ]
+    },
+    {
+      "id ": 16,
+      "title": "Digital Marketing",
+      "content": [
+        
+
+
+   {
+       
+    "courseName": "Diploma in Basic Social Media Marketing",
+    "category": "Digital Marketing",
+    "description": "Facebook Marketing, Instagram Marketing, Whatsapp Business, Linkedin Marketing and Twitter Marketing.",
+    "price": 8100,
+    "duration": null,
+    "offerPrice": null,
+    "displayBanner": null,
+    "certificate": [],
+    "assignments": true,
+    "internship": true,
+    "placementAssistance": true,
+    "nictApp": true,
+    "tallyApp": null,
+    "status": true,
+    "image" : "https://www.njitm.com/admin/pages/image/950227.png"
+},
+{
+    
+    "courseName": "Masters in Social Media Marketing",
+    "category": "Digital Marketing",
+    "description": "Marketing in basic social media handles including Twitter, Whatsapp, Snapchat, SEO & SEM, Wordpress.",
+    "price": 20700,
+    "duration": "3 Months",
+    "offerPrice": null,
+    "displayBanner": null,
+    "certificate": [],
+    "assignments": true,
+    "internship": false,
+    "placementAssistance": false,
+    "nictApp": true,
+    "tallyApp": null,
+    "status": true,
+   "image" : "https://www.njitm.com/admin/pages/image/950227.png"
+},
+{
+    
+    "courseName": "Masters in Digital Marketing with E Commerce Specialization",
+    "category": "Digital Marketing",
+    "description": "Marketing Techniques on Social Media channels and E Commerce Specialization such as Website Development, Landing Page, SEO Optimization, SEM, App Marketing, Analytics and more.",
+    "price": 64800,
+    "duration": "6 Months",
+    "offerPrice": null,
+    "displayBanner": null,
+    "certificate": [],
+    "assignments": true,
+    "internship": null,
+    "placementAssistance": null,
+    "nictApp": true,
+    "tallyApp": null,
+    "status": true,
+      "image" : "https://www.njitm.com/admin/pages/image/950227.png"
+}
+      ]
+    }
+    
+  ],
+  "Gallery" :[
+    {
+      "Images" : ["data:image/jpeg;base64,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", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtgzVcHe0fROcqBs-9eUQIj15Oja3J0TSEQqcXPxoqOqdBHdEnM1NEYfIzho-6NlgFzdI&usqp=CAU"],
+      "Content" : [ "content goes here" , "content goes here"]
+    } 
+  ]
+}
