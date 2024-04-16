@@ -36,7 +36,7 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className="pb-4 font-[Gilroy] pt-[18vh]">
+      <Container className="pb-4 font-[Montserrat] pt-[18vh]">
       {
         !data ? ( <Box sx={{ display: 'flex'}} className="flex items-center justify-center top-1/2"><CircularProgress /></Box>) : 
          data.map((item) => {
@@ -48,10 +48,10 @@ export default function SimpleContainer() {
                 duration: 0.5,
                 delay: 0.2,
                 ease: "linear"}} 
-            className="text-center mt-3 text-[2rem]">{item.title}</motion.h1>
+            className="text-center mt-3 text-[2rem] font-semibold">{item.title}</motion.h1>
             <div className="flex items-center justify-center mt-2"><div className="underline p-[2px] bg-yellow-700 w-[150px] rounded-md"></div></div>
             <div className="flex items-center gap-2 justify-center w-full">
-              <div className="para w-[80%] p-2 overflow-hidden shadow-lg rounded-md">
+              <div className="para w-[80%] p-2 overflow-hidden rounded-md">
                   {
                     item.content.map((content) =>{
                       return (<motion.p 
@@ -130,7 +130,7 @@ export default function SimpleContainer() {
             </Box>
 
             <Box className="text-center mt-10 pb-10">
-              <h1 className="text-[2rem]">{item.titlePartner}</h1>
+              <h1 className="text-[2rem] font-semibold">{item.titlePartner}</h1>
               <div className="flex items-center justify-center mt-2"><div className="underline p-[2px] bg-yellow-700 w-[200px] rounded-md"></div></div>
               <Box className="flex items-center justify-center gap-8 flex-wrap h-full">
               {

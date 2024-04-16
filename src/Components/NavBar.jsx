@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <>
        {isOnAdminPanel || isOnCourseCreate || isOnCourseEdit || isOnAdminCertificated || isOnAdminCourse || isOnLogin || isOnSignUp ? (null) :
-      <header className='fixed z-[999]'>
+      <header className='fixed z-[999] font-[Montserrat]'>
        <div className="logo">
           <Link to="/">
             <img src="/src/assets/logo.webp" alt="Logo" />

@@ -22,7 +22,7 @@ export default function FixedContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container fixed className="pt-[15vh]">
+      <Container fixed className="pt-[15vh] font-[Montserrat]">
         <motion.div
         initial={{y:"-20vh"}}
         animate={{y:"0"}}

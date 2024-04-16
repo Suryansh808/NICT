@@ -62,7 +62,7 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className="font-[Gilroy] pt-[15vh] ">
+      <Container className="font-[Montserrat] pt-[15vh] ">
         <div className="grid grid-cols-12 h-[78vh] overflow-hidden">
           {!data ? (
             <Box sx={{ width: "100vw" }}>
@@ -84,7 +84,7 @@ export default function SimpleContainer() {
                   </div>
                 </div>
               </div>
-              <div className=" p-1 bg-zinc-200 overflow-y-scroll col-span-3">
+              <div className=" p-1 bg-zinc-200 overflow-y-scroll no-scrollbar col-span-3">
                 <div className="">
                   <ul>
                     {data.map((group, index) => (
@@ -100,7 +100,7 @@ export default function SimpleContainer() {
                   </ul>
                 </div>
               </div>
-              <div className=" bg-zinc-200 overflow-y-scroll   col-span-9">
+              <div className=" bg-zinc-200 overflow-y-scroll no-scrollbar col-span-9">
                 {courseData ? (
                   <div className="w-full p-2 flex items-center justify-start gap-2 flex-wrap">
                     {courseData.content.map((contentItem, contentIndex) => (

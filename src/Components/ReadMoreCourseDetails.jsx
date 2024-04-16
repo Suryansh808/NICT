@@ -47,17 +47,15 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className="w-full h-screen relative pt-[18vh]">
+      <Container className="w-full h-screen relative pt-[18vh] font-[Montserrat]">
           <div className="w-full flex flex-wrap justify-between pt-4">
             <div className="content w-1/2 p-2 flex flex-col justify-center">
                <h1 className="text-2xl font-bold leading-tight tracking-tight">{contentItem.courseName}</h1>
                 <h2 className="font-bold opacity-[0.8]">{contentItem.category}</h2>
-               <h1 className="text-md mt-5 leading-tight tracking-tight capitalize ">{contentItem.description}</h1>
-                <div className='flex items-center gap-2'>
-                  <h1>
-                     &#x20B9;
-                    {contentItem.price}</h1>
-                   <h1>{contentItem.duration}</h1>
+               <h1 className="text-md mt-5 leading-tight tracking-tight capitalize line-clamp-3 ">{contentItem.description}</h1>
+                <div className='flex items-center gap-2 mt-3'>
+                  <h1 className='font-semibold'>&#x20B9;{contentItem.price}</h1>
+                   <h1 className='font-semibold'>{contentItem.duration} Course</h1>
                 </div>
                <div className='flex items-center gap-4 mt-5'>               
                <button onClick={() => handleEnrollForm(contentItem)} className="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-blue-700 bg-opacity-80 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">

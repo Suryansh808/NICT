@@ -14,8 +14,8 @@ function SocialMedia() {
     setOpen(true);
   };
   return (
-    <div  className="social-media">
-       <div className="rotate-90 fixed top-[30vh] z-50 -right-[4.5vw]  p-4"><button onClick={handleClickOpen} class="bg-blue-200 hover:bg-blue-400 text-black font-bold py-3 px-4 rounded-full shadow-lg shadow-neutral-950 hover:text-white transform transition-all duration-500 ease-in-out hover:scale-105 hover:brightness-110 hover:animate-pulse active:animate-bounce">Quick Enquiry</button>
+    <div  className="social-media font-[Montserrat]">
+       <div className="rotate-90 fixed top-[30vh] z-50 -right-[5vw]  p-4"><button onClick={handleClickOpen} class="bg-blue-200 hover:bg-blue-400 text-black font-bold py-3 px-4 rounded-full shadow-lg shadow-neutral-950 hover:text-white transform transition-all duration-500 ease-in-out hover:scale-105 hover:brightness-110 hover:animate-pulse active:animate-bounce">Quick Enquiry</button>
        <GetInTouch openIt={open} setOpenIt={setOpen}/>
        </div>
        <div className="fixed top-[50vh] z-50 -right-[0.7vw]">

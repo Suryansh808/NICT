@@ -4,38 +4,42 @@ import { PiCheckSquareFill } from "react-icons/pi";
 const GoogleCertification = () => {
   return (
        <>
-        <div data-scroll data-scroll-section data-scroll-speed="-.10" className='w-full bg-zinc-900 grid grid-cols-12 gap-2 p-2'>
-            <div className=' w-full bg-white border-2 col-span-8 rounded-md max-sm:col-span-12'>
-               <h1 className="flex items-center text-sky-600 text-2xl font-bold gap-2 p-2"><span><img className='w-20' src="http://www.nictcomputereducation.com/assets/home/google.png" alt="Google" /></span> Certification</h1>
-                <div className='w-full h-[50vh] flex items-center justify-center object-cover bg-[url(http://www.nictcomputereducation.com/assets/home/digital-marketing-institute-1.jpg)]'>
-                    <div className='w-[40vw] h-[20vh]  max-md:w-[75vw] max-md:h-[18vh] gap-2 flex flex-wrap items-center justify-center text-white text-2xl border backdrop-blur-md'><h1>Digital Marketing with </h1><span><img className='w-20' src="http://www.nictcomputereducation.com/assets/home/google.png" alt="Google" /></span><h1>Certification.</h1></div>
+        <div className='w-full bg-zinc-900 grid grid-cols-12 gap-2 p-2 font-[Montserrat]'>
+            <div className=' w-full bg-white border-2 col-span-12 rounded-md max-sm:col-span-12'>
+              <div className="heading flex items-center justify-center">
+              <span><img className='w-[17vh] hover:scale-110 ease-linear duration-300' src="http://www.nictcomputereducation.com/assets/home/google.png" alt="Google" /></span> 
+              <h1 className="flex items-center text-sky-600 text-3xl font-bold gap-2 p-2 ">Certification</h1>
+              </div>
+             <div className="flex items-center gap-2 overflow-hidden justify-center w-full p-2 ">
+                <div className='w-1/2 rounded-md overflow-hidden'>
+                <div className='w-full h-[50vh] rounded-md overflow-hidden flex items-center justify-center bg-cover hover:scale-105 ease-linear duration-300 bg-[url(http://www.nictcomputereducation.com/assets/home/digital-marketing-institute-1.jpg)]'>
+                    <div className='w-[40vw] h-[20vh]  max-md:w-[75vw] max-md:h-[18vh] gap-2 flex flex-wrap items-center justify-center text-white text-xl border backdrop-blur-md'><h1>Digital Marketing with </h1><span><img className='w-20' src="http://www.nictcomputereducation.com/assets/home/google.png" alt="Google" /></span><h1>Certification.</h1></div>
                 </div>
-                <div className='p-2'>
-                <table>
-                    <tr>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Search engine optimization(SEO)</td>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Email marketing</td>
+                </div>
+                <div className='w-1/2 h-[50vh] p-2 flex items-center justify-center flex-col '>
+                <table className='w-full'>
+                    <tr className='flex items-center justify-between text-sm  w-full'>
+                        <td className='flex items-center px-5 gap-1 w-1/2 '><span><PiCheckSquareFill /></span>Search engine optimization(SEO)</td>
+                        <td className='flex items-center px-5 gap-1 w-1/2'><span><PiCheckSquareFill /></span>Email marketing</td>
                     </tr>
-                    <tr>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Social media marketing</td>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Blogging</td>
+                    <tr className='flex items-center justify-between text-sm  w-full'>
+                        <td className='flex items-center px-5 gap-1 w-1/2 '><span><PiCheckSquareFill /></span>Social media marketing</td>
+                        <td className='flex items-center px-5 gap-1 w-1/2 '><span><PiCheckSquareFill /></span>Blogging</td>
                     </tr>
-                    <tr>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Video marketing</td>
-                        <td className='flex items-center gap-1 '><span><PiCheckSquareFill /></span>Website marketing</td>
+                    <tr className='flex items-center justify-between  text-sm w-full'>
+                        <td className='flex items-center px-5 gap-1 w-1/2  '><span><PiCheckSquareFill /></span>Video marketing</td>
+                        <td className='flex items-center px-5 gap-1 w-1/2 '><span><PiCheckSquareFill /></span>Website marketing</td>
                     </tr>
                 </table>
-                </div>
-                <button className="relative group cursor-pointer text-sky-50  overflow-hidden h-12 w-44 m-4 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold">
+                 <button className="relative group cursor-pointer text-sky-50  overflow-hidden h-12 w-44 m-4 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold">
                     <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-40 h-40 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 bg-sky-900"></div>
                     <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-32 h-32 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 bg-sky-800"></div>
                     <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-24 h-24 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 bg-sky-700"></div>
                     <div className="absolute top-3 right-20 group-hover:top-12 group-hover:-right-12 z-10 w-14 h-14 rounded-full group-hover:scale-150 group-hover:opacity-50 duration-500 bg-sky-600"></div>
                     <p className="z-10 text-bold text-xl">Read more</p>
                 </button>
-            </div>
-            <div className=' w-full bg-white col-span-4 p-5 rounded-md max-sm:col-span-12'>
-                <h1>FaceBook Ads...</h1>
+                </div>
+             </div>     
             </div>
             <div className=' w-full bg-white border col-span-8  rounded-md max-sm:col-span-12'>
                     <h1 className='flex items-center text-black text-2xl font-bold p-2 '><span><img className="w-[24vh]" src="http://www.nictcomputereducation.com/assets/home/microsoft.png" alt="MicroSoft" /></span>Certification</h1>   
@@ -74,7 +78,7 @@ const GoogleCertification = () => {
             </div>
             <div className=' w-full bg-white col-span-4 p-2 rounded-md max-sm:col-span-12'>
                <h1>Why Students Love NICT?</h1>
-               <div className='border-2 h-full p-2'>
+               <div className='w-full p-2'>
                      <div className='border h-max mb-2  w-full'>
                          <div className='content relative w-full  p-2 '>
                              <img scr=""/>

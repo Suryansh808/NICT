@@ -19,7 +19,7 @@ import YearExperience from './YearExperience';
 
 const Home = () => {
   return (
-    <div className='font-[Gilroy]  pt-[15vh]'>
+    <div className='font-[Gilroy] pt-[15vh]'>
       <div data-scroll data-scroll-section data-scroll-speed=".2" className="swiper">
          <Swiper
              modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}

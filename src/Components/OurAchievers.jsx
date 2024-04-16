@@ -13,7 +13,7 @@ export default function FixedContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container className="w-full pt-[15vh]">
+      <Container className="w-full pt-[15vh] font-[Montserrat]">
        <div className="w-full relative flex items-center justify-start gap-2 pt-6">
         {
           student.map((item , index) =>{
@@ -24,7 +24,7 @@ export default function FixedContainer() {
                       </div>
                       <div className="z-10 flex flex-col items-center justify-center  group-hover:-translate-y-5 transition-all duration-500">
                       <span className="text-2xl font-semibold">{item.name}</span>
-                      <span className='text-xs'><Rating className="" name="half-rating" defaultValue={item.rating} /></span>
+                      <span className='text-[1rem]'><Rating name="half-rating" defaultValue={item.rating} /></span>
                       <p className='leading-tight'>{item.feedback}</p>
                       </div>       
                     </div>

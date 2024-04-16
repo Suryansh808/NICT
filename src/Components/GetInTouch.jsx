@@ -29,7 +29,7 @@ export default function AlertDialogSlide({openIt , setOpenIt}) {
         keepMounted
         onClose={handleClose}
         aria-describedby="alert-dialog-slide-description">
-        <div className="get_in_touch flex items-center justify-center gap-2 w-full   ">
+        <div className="get_in_touch flex items-center justify-center gap-2 w-full font-[Montserrat]   ">
           <div className="form w-1/2 ">
           <DialogTitle><h1 className='font-bold text-xl text-[#90caf6] text-center uppercase'>Get In Touch</h1></DialogTitle>
         <DialogContent>

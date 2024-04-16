@@ -1,28 +1,17 @@
-import {Dialog,DialogContent,DialogTitle,} from "@mui/material";
 import React, { useState, useEffect } from "react";
-import Button from "@mui/joy/Button";
+import {Dialog,DialogContent,DialogTitle,} from "@mui/material";
+import axios from 'axios';
+
 
 const PopUp = ({Popup, setPopup }) => {
-    const [registration , setRegistration] = useState();
+  const [regNo , setRegNo] = useState();
   const [name, setName] = useState();
   const [email, setEmail] = useState();
-  const [phone, setPhone] = useState();
-  const [detail, setDetail] = useState();
+  const [mobile, setMobile] = useState();
+  const [degree, setDegree] = useState();
   const [course, setCourse] = useState();
 
-  const handleForm = () => {
-    // console.log(
-    //   `name : ${name} , email : ${email} , phone : ${phone},  detail:${detail} , course : ${course}`
-    // );
-    setOpenPopup(false);
-    setRegistration("")
-    setName("");
-    setEmail("");
-    setPhone("");
-    setDetail("");
-    setCourse("");
-  };
-
+ 
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -35,10 +24,34 @@ const PopUp = ({Popup, setPopup }) => {
       })
       .catch((err) => console.log(err));
   }, []);
+   
+  const handleForm = (e) => {
+    e.preventDefault();
+     
+    const StudentData ={regNo, name, email, mobile, degree, course}
+
+   axios.post("http://152.70.77.243:3000/placement/addPlacement" , StudentData)
+   .then((res)=>{
+     alert("data saved");
+     setRegNo("")
+     setName("");
+     setEmail("");
+     setMobile("");
+     setDegree("");
+     setCourse("");
+     setPopup(false);
+   })
+   .catch((err)=>{
+     console.log(err);
+   })
+ };
+
+
+
 
   return (
     <Dialog open={Popup}>
-     <div className='bg-gradient-to-t from-blue-300 to-blue-400'>
+     <div className='bg-gradient-to-t from-blue-300 to-blue-400 font-[Montserrat]'>
      <DialogTitle>
         <div className='text-center text-xl font-semibold capitalize text-white'>Placement Details</div>
       </DialogTitle>
@@ -52,8 +65,8 @@ const PopUp = ({Popup, setPopup }) => {
               id="regNo"
               name="regNo"
               required
-              value={registration}
-              onChange={(e) => setRegistration(e.target.value)}
+              value={regNo}
+              onChange={(e) => setRegNo(e.target.value)}
             />
             <input
               placeholder="Enter your name.."
@@ -79,18 +92,18 @@ const PopUp = ({Popup, setPopup }) => {
               placeholder="Enter your mobile no.."
               className="border rounded-md w-80 p-2"
               type="number"
-              id="phone"
-              name="phone"
+              id="mobile"
+              name="mobile"
               required
-              value={phone}
-              onChange={(e) => setPhone(e.target.value)}
+              value={mobile}
+              onChange={(e) => setMobile(e.target.value)}
             />
             <input
               className="border rounded-md w-80 p-2"
               type="text"
               placeholder="Degree.."
-              value={detail}
-              onChange={(e) => setDetail(e.target.value)}
+              value={degree}
+              onChange={(e) => setDegree(e.target.value)}
               name="degree"
               id="degree"
             ></input>
