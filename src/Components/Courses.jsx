@@ -92,7 +92,7 @@ export default function SimpleContainer() {
                         <button
                           className="border-2 flex items-center gap-2 bg-zinc-100 w-full px-1 text-left rounded-md"
                           onClick={() => handleClick(group)}>
-                          <BsFillArrowRightCircleFill />
+                          <span className='hover:scale-125 ease-linear duration-300'><BsFillArrowRightCircleFill/></span>
                           {group.title}
                         </button>
                       </li>
@@ -106,7 +106,7 @@ export default function SimpleContainer() {
                     {courseData.content.map((contentItem, contentIndex) => (
                       <div
                         key={contentIndex}
-                        className="w-[20vw] border-2 bg-white shadow-xl rounded-md overflow-hidden"
+                        className="w-[20vw]  hover:scale-105 ease-linear duration-500 border-2 bg-white shadow-xl rounded-md overflow-hidden"
                       >
                         <img
                           src={contentItem.image}
@@ -140,15 +140,15 @@ export default function SimpleContainer() {
                     ))}
                   </div>
                 ) : (
-                  <div className=" flex items-center justify-center flex-wrap">
+                  <div className=" flex items-center flex-wrap px-2 py-3">
                     {data.map((elem, index) => {
                       return elem.content.map((el, idx) => {
                         return (
-                          <div key={`elem_${index}_${idx}`}>
+                          <div key={`elem_${index}_${idx}`} className="">
                             {(el.category.includes("Programming") ||
                               el.category.includes("SAP") ||
                               el.category.includes("Web Designing")) && (
-                              <div className="w-[20vw] border-2 shadow-2xl pr-1 bg-white  rounded-md overflow-hidden">
+                              <div className="w-[20vw] mr-2 mb-2 hover:scale-105 ease-linear duration-500 shadow-3xl bg-white  rounded-md overflow-hidden">
                                 <img
                                   src={el.image}
                                   alt="image"

@@ -20,13 +20,15 @@ import YearExperience from './YearExperience';
 const Home = () => {
   return (
     <div className='font-[Gilroy] pt-[15vh]'>
-      <div data-scroll data-scroll-section data-scroll-speed=".2" className="swiper">
+      <div data-scroll data-scroll-section data-scroll-speed=".2" className="swiper w-full h-full">
          <Swiper
              modules={[Navigation, Autoplay, Pagination, Scrollbar, A11y]}
              autoplay={{autoplay:true}}
-             loop>
+             loop
+             className='w-full h-full object-cover'
+             >
       <SwiperSlide className="image1">
-          <img src={Img1} alt="" />
+          <img src={Img1} alt="" /> 
       </SwiperSlide>
       <SwiperSlide className="image1">
         <img src={Img2} alt="" id="image2"/>

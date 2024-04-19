@@ -8,35 +8,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html, body{
   width: 100%;
   height: 100%;
   font-family: Montserrat;
 }
 
- /* ====== swiper css ====== */
-.swiper{
-  width: 100%;
-  height: 100%;
+
+/* 
+.title:before,
+.title:after {
+  content: "";
+  display: none; 
+  height: 2px;
+  background-color: #333; 
+} */
+
+/* 
+.title:before {
+  width: 50px; 
+  margin-right: 20px; 
 }
 
-.swiper img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.title:after {
+  width: 50px; 
+  margin-left: 20px; 
 }
 
-/* ======== about css ========= */
 
-#about{
-  font-size: 3rem;
-  margin-top: 10vh;
-}
+.title:hover:before,
+.title:hover:after {
+  display: block; 
+  transition: all;
+  transition-duration: 2;
+} */
 
-.para{
-  display: hidden;
-}
 
-.content:hover .para{
-  display: block;
-}
+/* .title:hover ::before,
+.title:hover ::after {
+  Change the color when hovered
+  background-color: #c468ff; Example color
+} */

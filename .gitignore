@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+src/Components/Navbar.css
+src/Components/Footer.css
+
