@@ -23,8 +23,8 @@ const App = () => {
 
 
   return (
-    <div className=''>
-      <HashRouter>
+    <div>
+      <HashRouter basename="/NICT">
         <NavBar />
         <Routes>
           <Route index path="/" element={<Home />} />
