@@ -31,7 +31,7 @@ export default function FixedContainer() {
       <CssBaseline />
       <Container className="pt-[15vh]">
         <div data-aos='fade-down' className='w-full rounded-md overflow-hidden shadow-2xl'>
-          <img className='w-full hover:scale-105 ease-linear duration-300' src="https://media.licdn.com/dms/image/D4D3DAQHGN71finBS9A/image-scale_191_1128/0/1697710235886/nict_computer_education_pvt_ltd_cover?e=2147483647&v=beta&t=42r_odZ1cDMP6SbxlzdL_N8EhUr2ksfhcEV4aCfzzxI" alt="" />
+          <img className='w-full hover:scale-105 ease-linear duration-300' src="https://media.licdn.com/dms/image/D4D3DAQHGN71finBS9A/image-scale_191_1128/0/1697710235886/nict_computer_education_pvt_ltd_cover?e=2147483647&v=beta&t=42r_odZ1cDMP6SbxlzdL_N8EhUr2ksfhcEV4aCfzzxI" alt="bg_image" />
         </div>
         <div className="w-full mt-10 p-5">
          {
