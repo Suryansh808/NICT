@@ -4,8 +4,11 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import LinearProgress from "@mui/material/LinearProgress";
-import { IoSearch } from "react-icons/io5";
+// import { IoSearch } from "react-icons/io5";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import AOS  from "aos";
+import  "aos/dist/aos.css";
+
 
 
 export default function SimpleContainer() {
@@ -58,6 +61,11 @@ export default function SimpleContainer() {
   let handleReadMore = (contentItem, el) => {
     navigate("/ReadMoreCourseDetails", { state: { contentItem, el } });
   };
+   
+  useEffect(()=>{
+    AOS.init({duration :1000});
+    AOS.refresh();  
+  },[])
 
   return (
     <React.Fragment>
@@ -71,26 +79,28 @@ export default function SimpleContainer() {
           ) : (
             <>
               <div className="col-span-12">
-                <div className="bg-zinc-200">
-                  <div className="flex items-center justify-center p-3">
-                    <IoSearch className="absolute z-10 left-[39.7vw]" />
-                    <input
+                 <div className=''>
+                  <div data-aos="fade-down" className="flex items-center justify-center p-3">
+                   <div className=' relative inline-block shadow-lg w-[25vw] rounded-xl overflow-hidden'>
+                   <input
                       type="search"
                       value={searchInput}
                       onChange={handleSearch}
                       placeholder="Search course here....."
-                      className=" relative rounded-xl px-8 w-[300px] border border-slate-950"
+                      className="w-full rounded-xl px-3  border border-slate-950"
                     />
+                    {/* <IoSearch className="absolute z-10" /> */}
+                   </div>
                   </div>
                 </div>
               </div>
-              <div className=" p-1 bg-zinc-200 overflow-y-scroll no-scrollbar col-span-3">
-                <div className="">
+              <div className="px-2 py-3  overflow-y-scroll no-scrollbar col-span-3">
+                <div data-aos="zoom-in">
                   <ul>
                     {data.map((group, index) => (
                       <li key={index} className="pb-1">
                         <button
-                          className="border-2 flex items-center gap-2 bg-zinc-100 w-full px-1 text-left rounded-md"
+                          className="border-2 hover:scale-105 ease-linear duration-300 shadow-sm flex items-center gap-2 bg-zinc-100 w-full px-1 text-left rounded-md"
                           onClick={() => handleClick(group)}>
                           <span className='hover:scale-125 ease-linear duration-300'><BsFillArrowRightCircleFill/></span>
                           {group.title}
@@ -100,11 +110,11 @@ export default function SimpleContainer() {
                   </ul>
                 </div>
               </div>
-              <div className=" bg-zinc-200 overflow-y-scroll no-scrollbar col-span-9">
+              <div data-aos="zoom-in" className="overflow-y-scroll no-scrollbar col-span-9">
                 {courseData ? (
                   <div className="w-full p-2 flex items-center justify-start gap-2 flex-wrap">
                     {courseData.content.map((contentItem, contentIndex) => (
-                      <div
+                      <div                       
                         key={contentIndex}
                         className="w-[20vw]  hover:scale-105 ease-linear duration-500 border-2 bg-white shadow-xl rounded-md overflow-hidden"
                       >
@@ -140,15 +150,15 @@ export default function SimpleContainer() {
                     ))}
                   </div>
                 ) : (
-                  <div className=" flex items-center flex-wrap px-2 py-3">
+                  <div className="flex items-center justify-start px-2 py-3 flex-wrap overflow-y-scroll no-scrollbar col-span-9">
                     {data.map((elem, index) => {
                       return elem.content.map((el, idx) => {
                         return (
-                          <div key={`elem_${index}_${idx}`} className="">
+                          <div>
                             {(el.category.includes("Programming") ||
-                              el.category.includes("SAP") ||
+                              // el.category.includes("SAP") ||
                               el.category.includes("Web Designing")) && (
-                              <div className="w-[20vw] mr-2 mb-2 hover:scale-105 ease-linear duration-500 shadow-3xl bg-white  rounded-md overflow-hidden">
+                              <div key={`elem_${index}_${idx}`}  className="w-[20vw]  hover:scale-105 ml-1 ease-linear duration-500 border-2 bg-white shadow-xl rounded-md overflow-hidden">
                                 <img
                                   src={el.image}
                                   alt="image"

@@ -23,7 +23,7 @@ const App = () => {
 
 
   return (
-    <div className='font-[Gilroy]'>
+    <div className=''>
       <HashRouter>
         <NavBar />
         <Routes>

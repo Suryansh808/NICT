@@ -1,8 +1,10 @@
-import React, {useRef, useState} from 'react';
+import React, {useRef, useState , useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import EnrollNow from './EnrollNow';
+import AOS  from "aos";
+import  "aos/dist/aos.css";
 
 
 
@@ -11,6 +13,12 @@ export default function SimpleContainer() {
   const location = useLocation();
   const contentItem = location.state?.contentItem;
   // console.log(contentItem);
+
+  useEffect(()=>{
+    AOS.init({duration :1500 , delay :100});
+    AOS.refresh();  
+  },[])
+  
 
 
   const handleDownloadCourse = async (contentItem) => {
@@ -49,7 +57,7 @@ export default function SimpleContainer() {
       <CssBaseline />
       <Container className="w-full h-screen relative pt-[18vh] font-[Montserrat]">
           <div className="w-full flex flex-wrap justify-between pt-4">
-            <div className="content w-1/2 p-2 flex flex-col justify-center">
+            <div data-aos="fade-right" className="content w-1/2 p-2 flex flex-col justify-center">
                <h1 className="text-2xl font-bold leading-tight tracking-tight">{contentItem.courseName}</h1>
                 <h2 className="font-bold opacity-[0.8]">{contentItem.category}</h2>
                <h1 className="text-md mt-5 leading-tight tracking-tight capitalize line-clamp-3 ">{contentItem.description}</h1>
@@ -73,36 +81,36 @@ export default function SimpleContainer() {
                 </button>
              </div>
             </div>
-            <div className="img w-1/2 rounded-md overflow-hidden">
+            <div data-aos="fade-left" className="img w-1/2 rounded-md overflow-hidden">
               <img className='w-full h-full bg-cover bg-center' src={contentItem.image} alt="CourseImage" />
             </div>
           </div>
           <div className='w-full mt-5'>
-            <div className='w-full text-center mb-2'>
+            <div data-aos="zoom-in" className='w-full text-center mb-2'>
               <div className='w-full p-10 border-2'>
               <h1>Who this course is for?</h1>
                   content will come here ...
               </div>
             </div>
-            <div className='w-full  text-center mb-2'>
+            <div data-aos="zoom-in" className='w-full  text-center mb-2'>
                <div className='w-full p-10 border-2'>
               <h1>Why take this course?</h1>
                   content will come here ...
               </div>
             </div>
-            <div className='w-full  text-center mb-2'>
+            <div data-aos="zoom-in" className='w-full  text-center mb-2'>
                <div className='w-full p-10 border-2'>
               <h1>What you will learn?</h1>
                   content will come here ...
               </div>
             </div>
-            <div className='w-full  text-center mb-2'>
+            <div data-aos="zoom-in" className='w-full  text-center mb-2'>
                <div className='w-full p-10 border-2'>
               <h1>Course Content</h1>
                   content will come here ...
               </div>
             </div>
-            <div className='w-full  text-center mb-2'>
+            <div data-aos="zoom-in" className='w-full  text-center mb-2'>
                <div className='w-full p-10 border-2'>
                   <h1>Description</h1>
                   content will come here ...

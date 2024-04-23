@@ -1,21 +1,28 @@
-import * as React from 'react';
+import React ,{useEffect} from "react";
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import { BsBriefcaseFill } from "react-icons/bs";
+import AOS  from "aos";
+import  "aos/dist/aos.css";
 
 
 
 export default function FixedContainer() {
+
+  useEffect(()=>{
+    AOS.init({duration :1500 , delay :100});
+    AOS.refresh();  
+  },[])
   return (
     <React.Fragment>
       <CssBaseline />
       <Container className="pt-[15vh] font-[Montserrat]">
-        <div className="topImg w-full h-[50vh] bg-fill bg-center  bg-[url('https://i.pinimg.com/564x/7f/5c/8d/7f5c8d371d0f91fc57c636b1f568df4e.jpg')]">
+        <div data-aos='fade-down' className="topImg w-full h-[50vh] bg-fill bg-center  bg-[url('https://i.pinimg.com/564x/7f/5c/8d/7f5c8d371d0f91fc57c636b1f568df4e.jpg')]">
            <div className="w-full h-full flex items-center justify-center bg-gradient-to-r from-[#000000a1] to-[#000000a1]">
                <h1 className='font-[Montserrat] text-bold text-[2.2rem] text-white capitalize'>where do you belong?</h1>
            </div>
         </div>
-          <div className="job_search w-full mt-6">
+          <div data-aos='zoom-in' className="job_search w-full mt-6">
             <div className='form w-full flex items-center justify-center h-[15vh] gap-3 bg-[#dadada51]  rounded-l-full rounded-r-full'>
                 <div className="jon_role w-1/4 h-10 rounded-l-full  rounded-r-full overflow-hidden">
                   <input className='w-full h-full font-bold px-5 ' type="text" placeholder='Enter Job Role' />
@@ -35,8 +42,7 @@ export default function FixedContainer() {
                 </div>
             </div>
           </div>
-
-       <div className='jobs w-full mt-10 p-10 bg-[#f1eeee] rounded-md shadow-xl'>
+       <div data-aos='zoom-in' className='jobs w-full mt-10 p-10 bg-[#f1eeee] rounded-md shadow-xl'>
          <div className='flex items-center justify-between'>
             <div className='flex items-center gap-3'>
             <span><BsBriefcaseFill /></span>

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React ,{useEffect , useState} from "react";
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -6,6 +6,8 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { FaMobileScreenButton } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import GetInTouch from './GetInTouch';
+import AOS  from "aos";
+import  "aos/dist/aos.css";
 
 
 export default function SimpleContainer() {
@@ -14,14 +16,17 @@ export default function SimpleContainer() {
   const handleClickOpen = () => {
     setOpen(true);
   };
-
+  useEffect(()=>{
+    AOS.init({duration :1500 , delay :100});
+    AOS.refresh();  
+  },[])
   return (
     <React.Fragment>
       <CssBaseline />
       <Container className="pt-[15vh] font-[Montserrat]">
 
           {/* get in touch container section starts */}
-        <div className="w-full h-[50vh] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url(https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"> 
+        <div data-aos="fade-down" className="w-full h-[50vh] flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover bg-[url(https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"> 
            <div className=" w-[80%] h-[80%] flex flex-col items-center justify-center text-md font-bold font-serif bg-[#ffffff7f]  backdrop-blur-sm text-[#0b0b0b] rounded-md border border-[#DFDDDC]">
             <h1 className="font-bold text-xl py-3">Contact Us</h1>
             <h2 className="font-bold pb-2">We'd love to hear from you</h2>
@@ -33,15 +38,15 @@ export default function SimpleContainer() {
 
            {/* jayanagar office map starts */}
         <div className='font-sans  map mt-5 w-full rounded-md overflow-hidden shadow-xl'>
-             <h1 className="text-[2rem] mb-2 font-bold text-center">Jayanagar Office</h1>
-            <div className="map w-full h-[60vh] rounded-md overflow-hidden">
+             <h1  data-aos="zoom-in" className="text-[2rem] mb-2 font-bold text-center">Jayanagar Office</h1>
+            <div  data-aos="zoom-in" className="map w-full h-[60vh] rounded-md overflow-hidden">
            <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.714799687112!2d77.58195597507569!3d12.926043087385123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1588fe282245%3A0x644462445ce6cecd!2sNICT%20Computer%20Education%20Jayanagar!5e0!3m2!1sen!2sin!4v1712510781376!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
            </div>
         </div>
           
           {/* jayanagar office details starts */}
         <div className='w-full flex items-center justify-between  px-5 py-[10vh]'>
-          <div className="relative  overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+          <div  data-aos="zoom-out" className="relative  overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute  flex flex-col text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
@@ -53,7 +58,7 @@ export default function SimpleContainer() {
              <h2 className="text-sm text-white mt-2" >  MAIL</h2> 
              </div>
          </div>
-          <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+          <div  data-aos="zoom-out" className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute flex flex-col text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
@@ -65,7 +70,7 @@ export default function SimpleContainer() {
             <h2 className="text-sm text-white mt-2">CONTACT</h2> 
              </div>
          </div>
-          <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+          <div  data-aos="zoom-out" className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute flex flex-col  text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
@@ -81,9 +86,9 @@ export default function SimpleContainer() {
           
           {/* head office details starts */}
         <div className="w-full mt-2 border-2 rounded-xl bg-[#cfdfef]">
-                 <h1 className="text-2xl text-center font-semibold pt-3">Head Office</h1>
+                 <h1  data-aos="fade-down" className="text-2xl text-center font-semibold pt-3">Head Office</h1>
              <div className='w-full flex items-center justify-evenly gap-5 pt-4 pb-20'>
-                <div className="relative  overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+                <div  data-aos="zoom-in" className="relative  overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute flex flex-col text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
@@ -95,7 +100,7 @@ export default function SimpleContainer() {
              <h2 className="text-sm text-white mt-2" >  MAIL</h2> 
              </div>
                 </div>
-                <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+                <div  data-aos="zoom-in" className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute flex flex-col text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
@@ -107,7 +112,7 @@ export default function SimpleContainer() {
             <h2 className="text-sm text-white mt-2">CONTACT</h2> 
              </div>
                 </div>
-                <div className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
+                <div  data-aos="zoom-in" className="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-[#013446] shadow-2xl">
              <div className="z-10 absolute w-full h-full peer"></div>
              <div className="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500"></div>
              <div className="absolute flex flex-col text-sm text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32  -right-14 w-36 h-44 rounded-full bg-[#3e8ba8] transition-all duration-500">
